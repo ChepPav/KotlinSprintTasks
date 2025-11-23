@@ -6,7 +6,7 @@ fun main() {
     val minutes = seconds / SIXTY
     val hours = minutes / SIXTY
 
-    val remainingSeconds = seconds % 60
-    val remainingMinute = minutes % 60
+    val remainingSeconds = seconds % SIXTY
+    val remainingMinute = minutes % SIXTY
     println("%02d:%02d:%02d".format(hours, remainingMinute, remainingSeconds))
 }
