@@ -6,6 +6,7 @@ fun main() {
     val scoreStudentsSecond = 4f
     val scoreStudentsThird = 3f
     val scoreStudentsFour = 5f
-    val midleScore = ((scoreStudentsFirst+scoreStudentsSecond+scoreStudentsThird+scoreStudentsFour)/ NUMBER_OF_STUDENTS)
+    val midleScore =
+        ((scoreStudentsFirst + scoreStudentsSecond + scoreStudentsThird + scoreStudentsFour) / NUMBER_OF_STUDENTS)
     println(midleScore)
 }
