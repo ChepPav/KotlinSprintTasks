@@ -6,4 +6,5 @@ fun main() {
     val bookingTomorrow = 9
     println("Доступность столиков на сегодня: ${TABLES > bookingToday}")
     println("Доступность столиков на сегодня: ${TABLES > bookingTomorrow}")
+
 }
