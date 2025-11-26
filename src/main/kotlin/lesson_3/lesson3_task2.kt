@@ -1,12 +1,13 @@
 package lesson_3
 
-const val FIRST_NAME = "Татьяна"
-const val PATRONYMIC = "Сергеевна"
+
 fun main() {
+    val firstName = "Татьяна"
     var lastName = "Андреева"
+    val patronymic = "Сергеевна"
     var age = 20
-    println("$lastName $FIRST_NAME $PATRONYMIC $age лет")
+    println("$lastName $firstName $patronymic $age лет")
     lastName = "Сидорова"
     age = 22
-    println("$lastName $FIRST_NAME $PATRONYMIC $age года")
+    println("$lastName $firstName $patronymic $age года")
 }
